@@ -1,0 +1,62 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun. 2, 2020, 12:19:29 p.m.
+    Author     : Paras Patel
+*/
+body{
+     background-image:url('https://media.giphy.com/media/aRZ4vTsHnyW6A/giphy.gif');
+     background-repeat:repeat; 
+     border-image: url('img/border.gif') 20 round;
+     border-style: solid;
+     border-width: 20px;
+     margin-left:  auto;
+     margin-right: auto;
+     width: 970px;
+}
+header{
+    background-color: lightcyan;
+    align: center;
+}
+#mainDiv{
+    align   : center;
+}
+#start{
+    background-color: lawngreen;
+    border-radius: 100px;
+    height: 70px;
+    width: 70px;
+}
+#btns{
+    display: grid;
+    width: 185px;
+    background-color: coral;
+    align-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 20px solid aqua;
+    padding: 20px;
+    margin-top: 10px;
+}
+#turnDiv{
+    border: 15px solid aqua;
+    padding: 5px;
+    width: 250px;
+    margin-top: 5px;
+}
+#turn{
+    background-color: lightcyan;
+}
+#allDiv{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+button{
+    width: 50px;
+    height: 40px;
+    margin-bottom: 5px;
+   
+}

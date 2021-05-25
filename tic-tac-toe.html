@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+  Created on : Jun. 2, 2020, 12:19:29 p.m.
+  Author     : Paras Patel
+-->
+
+<html>
+    <head>
+        <title>Tic Tac Toe reverse</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="main.css">
+    </head>
+    <body >
+        <header align="center"><h1>Tic Tac Toe - Reverse</h1></header>
+        <div id="mainDiv" align="center">
+            <div id="clkStart" style="background-color: lightcyan; margin: 4px; width: 250px;">Click on play button to start the game.</div>
+            <div id="startBtn">
+                <img id="start" src="img\play.png" onclick="startGame()">
+            </div>
+            <div id="btns">
+                <button type="button" id = "0" onclick="playerOne(this.id)" disabled></button>
+                <button type="button" id = "1" onclick="playerOne(this.id)"  disabled></button>
+                <button type="button" id = "2" onclick="playerOne(this.id)"  disabled></button>
+                <button type="button" id = "3" onclick="playerOne(this.id)"  disabled></button>
+                <button type="button" id = "4" onclick="playerOne(this.id)"  disabled></button>
+                <button type="button" id = "5" onclick="playerOne(this.id)"  disabled></button>
+                <button type="button" id = "6" onclick="playerOne(this.id)"  disabled></button>
+                <button type="button" id = "7" onclick="playerOne(this.id)"  disabled></button>
+                <button type="button" id = "8" onclick="playerOne(this.id)"  disabled></button>
+            </div>
+            <div id="turnDiv"><p id="turn"></p></div>
+            <div style="background-color: lightcyan; margin: 4px;">Paras Jayeshbhai Patel</div>
+        </div>
+        <script src="ttt.js"></script>
+    </body>
+</html>
